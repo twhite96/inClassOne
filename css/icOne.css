@@ -1,3 +1,60 @@
 body, html {
   font-size: 12px;
+  background-color: white;
+}
+.image-container img:first-child {
+  width: 100%;
+  max-height: 500px;
+}
+
+h1, h2, p, blockquote {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+#debugging {
+	background: #f9f9f9;
+	border-left: 10px solid #DC383F;
+	margin: 1.5em 10px;
+	padding: 2em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+#debugging:before {
+  color: #DC383F;
+	font-size: 4em;
+	content: open-quote;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.1em;
+	float: left;
+}
+
+h1 {
+  left: 0;
+  position: absolute;
+  top: 225px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.circular {
+  width: 25%;
+	height: auto;
+	float: left;
+	margin-right: 8rem;
+	-webkit-shape-outside:circle();
+	shape-outside:circle();
+}
+
+footer, a:link {
+  color: #DC383F;
+}
+
+a:hover {
+  color: #348EA9;
 }
