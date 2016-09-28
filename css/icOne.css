@@ -51,10 +51,10 @@ h1 {
 	shape-outside:circle();
 }
 
-footer, a:link {
+footer, a[href^="https://"] {
   color: #DC383F;
 }
 
-a:hover {
+a[href^="https://"]:hover {
   color: #348EA9;
 }
